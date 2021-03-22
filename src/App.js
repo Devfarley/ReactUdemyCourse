@@ -32,14 +32,14 @@ class App extends Component {
         { name: 'Stephanie', age: 27 },
       ],
     });
-  }
+  };
 
   render() {
     return (
       <div className='App'>
         <h1>Hi, I'm a React App</h1>
         <p>This is really working!</p>
-        <button onClick={() => this.switchNameHandler("Maximilian!!")}>
+        <button onClick={() => this.switchNameHandler('Maximilian!!')}>
           Switch Name
         </button>
         <Person
